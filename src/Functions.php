@@ -3,22 +3,20 @@
 /**
  * Description
  *
- * @package EMST\Lib
+ * @package EMST
  */
 
-namespace EMST\Lib;
-
-use EMST\Lib;
+namespace EMST;
 
 /**
  * Description
  *
- * @package EMST\Lib
+ * @package EMST
  */
 class Functions {
 
     public function __construct() {
-        $this->db = new Lib\Database( 'stapi', 'wp', 'wp', 'localhost' );
+        $this->db = new Database( 'stapi', 'wp', 'wp', 'localhost' );
     }
 
     function init_db() {

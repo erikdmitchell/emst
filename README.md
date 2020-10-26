@@ -2,6 +2,8 @@
 ======
 This is a short description of your **EM Strava**.
 
+### Version 0.1.0
+
 ## Requirements
 
 PHP 5.5 and later
@@ -16,11 +18,11 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/erikdmitchell/em-strava"
+      "url": "https://github.com/erikdmitchell/emst"
     }
   ],
   "require": {
-    "erikdmitchell/em-strava": "*@dev"
+    "erikdmitchell/emst": "*@dev"
   }
 }
 ```

@@ -3,17 +3,15 @@
 /**
  * Description
  *
- * @package EMST\Lib
+ * @package EMST
  */
 
-namespace EMST\Lib;
-
-use EMST\Lib;
+namespace EMST;
 
 /**
  * Description
  *
- * @package EMST\Lib
+ * @package EMST
  */
 
 /**
