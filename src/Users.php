@@ -22,7 +22,7 @@ class Users {
     }
 
     public function init() {
-        // $this->check_users_token();
+        //$this->check_users_token();
     }
 
     protected function check_users_token() {
@@ -39,13 +39,13 @@ class Users {
             return 'error';
         }
         // until we fix the date issue, make this a link or something.
-        echo '<p>' . $user->expires_at . '|' . time() . '</p>';
-        if ( $user->expires_at < time() ) {
-            echo 'use existing short lived token<br>';
-        } else {
+        //echo '<p>' . $user->expires_at . '|' . time() . '</p>';
+        //if ( $user->expires_at < time() ) {
+            //echo 'use existing short lived token<br>';
+        //} else {
             echo 'update token?not true?<br>';
             $this->refresh_token( $user );
-        }
+        //}
     }
 
     private function refresh_token( $user = '' ) {
