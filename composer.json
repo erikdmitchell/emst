@@ -10,6 +10,6 @@
     ],
     "require": {},
     "autoload": {
-        "psr-4": { "EMST\\Demo\\" : "src" }
+        "psr-4": { "EMST\\" : "src" }
     }    
 }
