@@ -1,0 +1,15 @@
+{
+    "name": "erikdmitchell/em-strava",
+    "description": "Strava composer project thingy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erik",
+            "email": "erikdmitchell@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": { "EMST\\Demo\\" : "src" }
+    }    
+}
