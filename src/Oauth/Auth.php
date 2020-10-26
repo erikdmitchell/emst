@@ -8,7 +8,7 @@
 
 namespace EMST\Oauth;
 
-use EMST\Lib\Functions;
+use EMST\Functions;
 
 /**
  * Description
